@@ -1,0 +1,31 @@
+.centrarElementos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 25px 25px;
+
+}
+@media screen and (max-width: 700px){
+    .centrarElementos{
+        display: inline-block;
+    }
+    
+}
+
+.centrarElementos button {
+    margin: 5px 10px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: rgb(255, 0, 0);
+}
+
+.iconLock {
+
+    color: rgb(255, 0, 0);
+}
